@@ -1,0 +1,7 @@
+# Folders
+src/public/
+src/themes/
+resources/
+
+# Files
+.hugo_build.lock
