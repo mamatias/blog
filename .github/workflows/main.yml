@@ -8,9 +8,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Hugo
-        run: |
-          cd src
-          ls -al
         uses: klakegg/actions-hugo@ext-ubuntu
 
 #      - name: Setup hugo
