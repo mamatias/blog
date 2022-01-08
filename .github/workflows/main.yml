@@ -2,10 +2,10 @@ name: Deploy
 on: push
 jobs:
   deploy:
-    strategy:
-      matrix:
-#        version: [0.56.3, 0.57.2]
-        image: [ext-ubuntu]
+#    strategy:
+#      matrix:
+##        version: [0.56.3, 0.57.2]
+#        image: [ext-ubuntu]
     runs-on: ubuntu-18.04
     steps:
       - name: Git checkout
@@ -15,7 +15,7 @@ jobs:
         uses: klakegg/actions-hugo@1.0.0
         with:
 #          version: ${{ matrix.version }}
-          image: ${{ matrix.image }}
+          image: ext-ubuntu #${{ matrix.image }}
           source: src
         
 
@@ -37,7 +37,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
 #            github_token: ${{ secrets.GITHUB_TOKEN }}
-            deploy_key: ${{ secrets.TOKEN }}
+            personal_token: ${{ secrets.TOKEN }}
             external_repository: mamatias/mamatias.github.io
             publish_branch: gh-pages  # default: gh-pages
             publish_dir: ./src/public
