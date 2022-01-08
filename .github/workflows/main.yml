@@ -7,15 +7,6 @@ jobs:
       - name: Git checkout
         uses: actions/checkout@v2
 
-      - name: test
-        run: pwd
-
-      - name: Change cd
-        run: cd src
-
-      - name: test2
-        run: pwd
-
       - name: Setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
@@ -25,10 +16,13 @@ jobs:
       - name: Build
         # remove --minify tag if you do not need it
         # docs: https://gohugo.io/hugo-pipes/minification/
-        run: hugo --minify
+        run: |
+          cd src
+          hugo --minify
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
             github_token: ${{ secrets.GITHUB_TOKEN }}
-            publish_dir: ./public
+            publish_dir: ./src/public
+            destination_dir: subdir
