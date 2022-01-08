@@ -16,6 +16,7 @@ jobs:
         with:
 #          version: ${{ matrix.version }}
           image: ${{ matrix.image }}
+          source: src
         
 
 #      - name: Setup hugo
