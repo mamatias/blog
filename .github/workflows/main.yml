@@ -2,13 +2,21 @@ name: Deploy
 on: push
 jobs:
   deploy:
+    strategy:
+      matrix:
+#        version: [0.56.3, 0.57.2]
+        image: [ext-ubuntu]
     runs-on: ubuntu-18.04
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
 
       - name: Hugo
-        uses: klakegg/actions-hugo@ext-debian
+        uses: klakegg/actions-hugo@1.0.0
+        with:
+#          version: ${{ matrix.version }}
+          image: ${{ matrix.image }}
+        
 
 #      - name: Setup hugo
 #        uses: peaceiris/actions-hugo@v2
