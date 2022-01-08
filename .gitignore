@@ -1,6 +1,8 @@
 # Folders
 src/public/
-src/themes/
+src/themes/sam/docs/
+src/themes/sam/exampleSite/
+src/themes/sam/images/
 resources/
 
 # Files
