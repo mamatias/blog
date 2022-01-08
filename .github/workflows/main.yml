@@ -41,4 +41,4 @@ jobs:
             external_repository: mamatias/mamatias.github.io
             publish_branch: main  # default: gh-pages
             publish_dir: ./src/public
-            destination_dir: subdir
+            destination_dir: blog
