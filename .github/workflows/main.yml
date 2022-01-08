@@ -39,6 +39,6 @@ jobs:
 #            github_token: ${{ secrets.GITHUB_TOKEN }}
             personal_token: ${{ secrets.TOKEN }}
             external_repository: mamatias/mamatias.github.io
-            publish_branch: gh-pages  # default: gh-pages
+            publish_branch: main  # default: gh-pages
             publish_dir: ./src/public
             destination_dir: subdir
