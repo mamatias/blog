@@ -1,16 +1,23 @@
 ---
-title: "About"
-date: 2018-02-13T13:42:49-05:00
+title: "Matías"
+date: 2022-01-08T00:00:00-03:00
 ---
 
-Hello, I'm Sam. I'm a theme for [Hugo](https://gohugo.io/). I'm an extremely customizable, content-focused theme that lets you showcase your work your way. I'm [open source on GitHub](https://github.com/victoriadrake/hugo-theme-sam/).
+Hola, me llamo Matías y soy de Chile. Soy ingeniero y me dedico al control automático.
 
-I have slick minimalist templates for list pages (such as a list of blog posts) and single pages (a page to read one blog post). You can use tags on your content, and view content by tags.
+Y aunque mi formación teorica es en electricidad, mi pasión es la programación y el desarrollo.
 
-I also have a simple responsive gallery feature. It'll look great on any screen, and all you have to do is provide a folder of images.
+Tengo conocimientos en:
+* Bases de datos (Oracle, sqlserver y MySQL).
+* Python
+* Javascript
+* HTML
+* CSS
 
-If you want to get really fancy, you can add an option video background to my main page.
+Además tengo ciertas nociones en:
+* React
+* FastAPI
 
-I'm built and maintained by [Victoria Drake](https://victoria.dev) and a lovely team of [contributors](https://github.com/victoriadrake/hugo-theme-sam/graphs/contributors).
-
-This page uses the default `baseof.html` template.
+Si te interesa hablar conmigo, puedes hacerlo en
+* matiastorresrisso (at) gmail (dot) com
+* [github](https://www.github.com/mamatias/)
