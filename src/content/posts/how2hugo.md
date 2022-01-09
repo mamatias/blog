@@ -7,7 +7,7 @@ tags: ["hugo","web"]
 ---
 
 Existen varias formas de comenzar con hugo, pero la que usaré será mediante una imagen
-docker. En la misma [documentación de hugo]([www.google.cl](https://gohugo.io/getting-started/installing/#docker)) dan algunas luces de esta opción y
+docker. En la misma [documentación de hugo](https://gohugo.io/getting-started/installing/#docker) dan algunas luces de esta opción y
 recomiendan una [imagen](https://hub.docker.com/r/klakegg/hugo/) a utilizar (no es oficial).
 
 ## Instalación de docker
