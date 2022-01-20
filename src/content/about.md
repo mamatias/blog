@@ -21,3 +21,7 @@ Además tengo ciertas nociones en:
 Si te interesa hablar conmigo, puedes hacerlo en
 * matiastorresrisso (at) gmail (dot) com
 * [github](https://www.github.com/mamatias/)
+
+Puedes acceder y dar una pequeña revisión a mis trabajos en las siguientes
+* [Portafolio eléctrico](../portfolio/el)
+* [Portafolio desarrollador](../portfolio/cc)
